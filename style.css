@@ -1,3 +1,30 @@
-h1{
-color:green;
+h2 {
+     padding: 0.2em;
+     background: linear-gradient(transparent 70%, #fff100 70%);
+}
+h1 {
+     position: relative;
+     padding:0.5em 0.5em 0.5em 1.8em;
+     border: 1px solid #CCC;
+     border-radius: 5px;
+}
+
+h1::after {
+     position: absolute;
+     top: 50%;
+     left:0.7em;
+     transform:translateY(-50%);
+     content: '';
+     width: 8px;
+     height:8px;
+     border: solid 3px #446689;
+     border-radius:100%;
+}
+.subtitle{
+
+}
+
+ul li{
+  padding-top:0px;
+  padding-bottom:0px;
 }
